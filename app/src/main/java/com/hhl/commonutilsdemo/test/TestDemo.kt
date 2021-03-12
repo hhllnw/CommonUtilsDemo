@@ -20,7 +20,7 @@ fun main() {
 fun collectionSort() {
     data class Language(var name: String, var score: Int)
 
-    val mutableList = mutableListOf<Language>();
+    val mutableList = mutableListOf<Language>()
     mutableList.add(Language("JAVA", 80))
     mutableList.add(Language("Kotlin", 90))
     mutableList.add(Language("Android", 100))
