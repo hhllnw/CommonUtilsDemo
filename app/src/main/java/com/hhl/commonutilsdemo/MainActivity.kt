@@ -3,6 +3,7 @@ package com.hhl.commonutilsdemo
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import java.util.concurrent.ExecutorService
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,4 +38,10 @@ class MainActivity : AppCompatActivity() {
         }
         println("grade=$grade")
     }
+
+    companion object {
+        const val a = 0x001
+    }
+
+
 }
